@@ -1,0 +1,216 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #eae7dc;
+}
+
+.top {
+    font-family: "Bebas Neue", serif;
+    margin: 20px;
+    display: flex;
+    font-size: 25px;
+}
+
+.top .nav {
+    margin-left: auto;
+}
+
+.nav-items a:hover {
+    padding: 10px;
+    background-color: #e98074;
+    color: #fff;
+}
+
+.nav-items a {
+    padding: 10px;
+    color: #8e8d8a;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.name {
+    padding-top: 300px;
+    height: 400px;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    color: #e98074;
+    align-items: center;
+}
+.name p {
+    margin: 0;
+    padding: 0;
+    font-family: "Lobster Two", serif;
+}
+
+.name .intro, .name .info  {
+    color: #8e8d8a;
+    font-size: 25px;
+    font-family: "Comfortaa", serif;
+}
+
+#about {
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 40px;
+    height: 500px;
+    text-align: center;
+    width: 100%;
+    font-family: "Bebas Neue", serif;
+    background-color: #d8c3a5;
+}
+
+#about .desc {
+    font-size: 30px;
+    font-family: "Comfortaa", serif;
+}
+
+#about .skills {
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.skills .card {
+    transition: transform .2s;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 130px;
+    height: 150px;
+}
+
+.card .level {
+    font-family: "Comfortaa", serif;
+    font-size: 18px;
+}
+
+.card:hover { 
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+    transform: scale(1.1);
+}
+
+.project {
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e85a4f;
+    padding-top: 20px;
+    font-family: "Bebas Neue", serif;
+    font-size: 40px;
+}
+
+.project .row1 {
+    justify-content: center;
+    display: flex;
+}
+
+.row1 a {
+    text-decoration: none;
+}
+
+.project .pcard {
+    transition: transform .2s;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    color: black;
+    width: 150px;
+}
+
+.pcard .pname {
+    font-size: 30px;
+} 
+
+.pcard .pdesc {
+    font-size: 18px;
+    font-family: "Comfortaa", serif;
+}
+
+.project .pcard:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1000px) {
+    .top {
+        display: none;
+    }
+
+    .name {
+        margin-top: 300px;
+        font-size: 200px;
+        height: 1200px;
+    }
+    .name .intro, .name .info {
+        font-size: 50px;
+    }
+
+    #about {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 1200px;
+        font-size: 70px;
+
+    }
+
+    #about .desc {
+        font-size: 40px;
+    }
+
+    #about .skills {
+        text-align: center;
+        justify-content: center;
+        display: block;
+    }
+
+    .skills .card {
+        margin: 10px;
+        float: left;
+        height: 250px;
+        width: 300px;
+        font-size: 50px;
+    }
+
+    .card .level {
+        font-size: 40px;
+    }
+
+    .project {
+        height: 1000px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 70px;
+    }
+
+    .project .row1 {
+        text-align: center;
+        justify-content: center;
+        font-size: 70px;
+        display: block;
+    }
+
+    .row1 .pcard {
+        margin: 15px;
+        float: left;
+        height: 310px;
+        width: 280px;
+        font-size: 50px;
+    }
+
+    .pcard .pname {
+        font-size: 50px;
+    }
+    .pcard .pdesc {
+        font-size: 40px;
+    }
+
+}
